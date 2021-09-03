@@ -1,0 +1,19 @@
+{
+  "name": "sportz",
+  "version": "1.0.0",
+  "description": "Site Sportz",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "sass --watch assets/scss/main.scss:assets/css/main.css --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  }
+ 
+}
